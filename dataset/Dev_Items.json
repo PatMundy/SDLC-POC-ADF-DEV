@@ -1,0 +1,30 @@
+{
+	"name": "Dev_Items",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "POC_Dev",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "itemID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "itemName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "itemColor",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "POC_Items"
+		}
+	}
+}
