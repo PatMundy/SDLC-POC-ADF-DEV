@@ -1,0 +1,17 @@
+{
+	"name": "ExternalDB",
+	"properties": {
+		"type": "Managed",
+		"description": "ExternalDB",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "West US",
+				"dataFlowProperties": {
+					"computeType": "General",
+					"coreCount": 8,
+					"timeToLive": 0
+				}
+			}
+		}
+	}
+}
