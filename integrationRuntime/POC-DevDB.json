@@ -1,0 +1,17 @@
+{
+	"name": "POC-DevDB",
+	"properties": {
+		"type": "Managed",
+		"description": "POC Dev DB",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "AutoResolve",
+				"dataFlowProperties": {
+					"computeType": "General",
+					"coreCount": 8,
+					"timeToLive": 0
+				}
+			}
+		}
+	}
+}
